@@ -1,0 +1,23 @@
+{
+    "name": "CP CList",
+    "description": "A simple CP calendar to check for upcoming contests",
+    "author":"Kunal Dubey",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "192": "192.png",
+        "512": "512.png"
+    }
+}
